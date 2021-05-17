@@ -1,0 +1,135 @@
+/*
+Style Sheet for Pansy Potter
+Developed by Tom Gorton
+07/10.2020
+Version 1.0
+*/
+
+html {
+	background-image: url('https://fablesandflora.files.wordpress.com/2013/07/meadow-flowers-low-res.jpg');
+}
+
+body{
+	font-family: Verdama, Helvetica, sans-serif;
+	background-color: #f5f5f5;
+	border: 2px solid;
+	border-color: Black;
+}
+
+p {
+	text-align: center;
+}
+
+p7 {
+	color: blue;
+}
+
+header {
+	Height: 80px; 
+	Display: flex;
+	align-items: center; 
+}
+
+nav li {
+	display: inline;
+}
+
+nav li a{
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	padding: 5px;
+}
+
+nav li a:hover {
+	color: white;
+	background-color: black;
+}
+
+h1 {
+	font-family: "Brush Script MT", cursive;
+	width: 100%;
+	color: black;
+	background-color: #228B22;
+	text-align: center;
+}
+
+footer{
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	padding: 20px;
+	text-decoration: none;
+}
+
+input {
+  width: 20%;
+  Padding: 12px 20px;
+  border: 2px solid;
+  Border-Radius: 8px;
+  Outline: none
+  \* Background = White */
+  background-color: #f8f8f8;
+  background-image: url('images\searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  transition: width 0.4s ease-in-out;
+}
+
+textarea {
+  width: 40%;
+  height: 100px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid;
+  border-radius: 4px;
+  border-color: black;
+  background-color: white;
+  Outline: none;
+  resize: none;
+}
+
+p2 {
+	center-align: center;
+}
+
+p1 {
+	color: white;
+}
+
+select {
+  width: 26%;
+  padding: 16px 20px;
+  border: 2px solid;
+  border-radius: 8px;
+  Outline: none;
+  resize: none;
+  background-color: #f8f8f8;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #228B22;
+  border: 1px solid;
+  border-color: Black;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+h4 {
+	text-align: center;
+}
+
+img {
+	width: 75px;
+	height: 76px;
+}
+
+header {
+	background-color: #054B14;
+	border: 2px solid;
+	border-color: black;
+}

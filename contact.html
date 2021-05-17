@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pansy Potter - Contact</title>
+	 <link rel="shortcut icon" href="images\logo.png" />
+	 
+	 <!-- Below is the link for JavaScript files -->
+	 <script src="js\scripts.js"></script>
+	 
+	 <!-- Below is the links for CSS files -->
+	 <link id="stylesheet" rel="stylesheet" href="css\style.css" />
+	
+</head>
+<body onload="getCurrentTheme()">
+
+<!-- This is the start of the Header -->
+<header>
+<img id="top" src="images\logo.png" />
+<!-- This is the start of the Navigation -->
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+|
+<li><a href="services.html">Services</a><li>
+|
+<li><a href="portfolio.html">Portfolio</a><li>
+|
+<li><a href="contact.html">Contact</a><li>
+
+
+<!-- Theme for Site Below -->
+
+<br>
+<br>
+<!-- Below is where the theme changes between light / dark mode using javascript -->
+<p1>Select Theme: </p1>
+<button onclick="setLightTheme()">Light Mode</button>
+<button onclick="setDarkTheme()">Dark Mode</button>
+
+</ul>
+</nav>
+</header>
+
+<h1 id="contact">Contact</h1>
+
+<h3>  Name (Required) </h3>
+<input type="text" placeholder="Your Name Here" id="Name" name="Name" class="label" required>
+<br>
+<br>
+
+<h3>  Mobile Number (Required)</h3>
+<input type="text" placeholder="Your Mobile Number Here"id="Mobile" name="Mobile" class="label" required>
+<br>
+<br>
+
+<h3>  Email Address (Required)</h3>
+<input type="text" placeholder="Your Email Address Here"id="Email" name="Email" class="label" required>
+<br>
+<br>
+
+<h3> Subject:</h3>
+<textarea rows="10" cols="50" placeholder="Add the subject of your message here">
+</textarea>
+<br>
+<br>
+
+<h3> Message:</h3>
+<textarea rows="10" cols="50" placeholder="Add your message here">
+</textarea>
+<br>
+<br>
+
+<p>
+---
+<input type="submit" value="Submit">
+---
+<input type="reset" value="Reset">
+---
+</p>
+</form>
+<footer>
+<h1 id="small_print">Small Print</h1>
+
+<a href="">Legal</a>
+-
+<a href="">Our Policies</a>
+-
+<a href="">GDPR</a>
+-
+<a href="ourcookies.html">Our Cookies</a>
+
+</footer>
+<!-- End of Footer -->
+</body>
+</html>
